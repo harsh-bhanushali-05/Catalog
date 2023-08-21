@@ -45,8 +45,9 @@ function ProductPage() {
         <Grid md={10}>
           <Image images={img} />
         </Grid>
+        <Grid md={1}></Grid>
         <Grid md={8}><Title buyLink={products.buyLink} mrp={products.mpr} price={products.price} title={products.title} description={products.description}/></Grid>
-        <Grid xs={6}></Grid>
+        <Grid xs={5}></Grid>
         <Grid xs={6}></Grid>
       </Grid>
       <Grid

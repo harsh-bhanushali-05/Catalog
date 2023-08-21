@@ -1,3 +1,4 @@
+import { height } from '@mui/system';
 import React, { useState } from 'react';
 
 function Image(props) {
@@ -39,7 +40,7 @@ function InteractiveImageGallery(props) {
       <img
         src={mainImage === null ? props.images[0] : mainImage}
         alt="Main Image"
-        style={{ height: '100%', objectFit: 'cover' }}
+        style={{  minHeight:"50%", maxHeight:"80%" , minWidth:" 60%", maxWidth: '80%' }}
       />
     </div>
   );

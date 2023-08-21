@@ -15,12 +15,11 @@ function Title(props) {
       >
         <Grid md={1}></Grid>
         <Grid md={1}>
-          {" "}
           <h2>
             <p className="percent">-{percent}%</p>
           </h2>
         </Grid>
-        <Grid md={1}></Grid>
+        <Grid md={2}></Grid>
         <Grid md={1}>
             <h2>
               <p className="price">
